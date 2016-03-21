@@ -203,8 +203,6 @@ void print_intervals(vector<pair<int, int> > intervals)
 		int end = it->second;
 		cout << ll << ", " << end << endl;
 	}
-
-	return intervals;
 }
 
 
@@ -332,7 +330,7 @@ int main(int argc, const char* argv[]) {
 		mpz_class M = sumsigma[upper] * (sumS[upper] + 1);
 		p[i] = -1;
 		B[i] = M;
-		for (int k = 0; k <= i; k++) {
+		for (int k = 1; k <= i; k++) {
 			int lower = k - 1;
 			M = cost(lower + 1, upper, sumS, sumsigma);
 			if (B[i] > M + B[lower]) {
