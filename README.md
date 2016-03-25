@@ -4,10 +4,11 @@ AlignBucket is a software for splitting a fasta file into smaller pieces suitabl
 alignment with BLAST. The constraint used to optimize the result is the required
 minimum alignment coverage.
 
-It has been published on
-[Bioinformatics](http://bioinformatics.oxfordjournals.org/content/31/23/3841) in 2015.
 Source code and example files are available also at the
 [Bologna Biocomputing Group](http://www.biocomp.unibo.it/~giuseppe/partitioning.html) website.
+
+## Citation
+G. Profiti, P. Fariselli, and R. Casadio. ["AlignBucket: a tool to speed up 'all-against-all' protein sequence alignments optimizing length constraints"](http://bioinformatics.oxfordjournals.org/content/31/23/3841). *Bioinformatics*, 31 (23): 3841-3843, 2015.
 
 ## Requirements
 
